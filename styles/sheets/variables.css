@@ -1,0 +1,20 @@
+:root {
+    
+    /* neutras */
+    --white: rgb(243, 247, 239);
+    --gray-soft: rgb(214, 214, 214);
+    --gray: gray;
+    --gray-dark: rgb(94, 94, 94);
+    --dark: rgb(58, 58, 58);
+    --black: rgb(19, 19, 19);
+
+    --green-soft: #d6f16a;
+    --green: #BFDE42;
+    --green-fluorescent: #bfe71c;
+    --green-dark: #191f01;
+
+    --blue-soft: #6fd3e7;
+    --blue: #42B4CA;
+    --blue-dark: #2193aa;
+
+}

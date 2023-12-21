@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricky and Morty</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="img/logo.svg" alt="logo rick and morty">
+            <nav>
+                <a href="/" class="active">characters</a>
+                <a href="">locations</a>
+                <a href="">episodes</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <img class="logo" src="img/Rick_and_Morty.svg" alt="rick and morty">
+
+
+            <section class="filters">
+                <input type="text" placeholder="filter by name">
+                <select name="species" id="species">
+                    <option value="all" selected>All</option>
+                    <option value="humanoid">Humanoid</option>
+                    <option value="alien">Alien</option>
+                </select>
+                <select name="gender" id="gender">
+                    <option value="all">all</option>
+                    <option value="female">female</option>
+                    <option value="male">male</option>
+                    <option value="genderless">genderless</option>
+                    <option value="unknown">unknown</option>
+                </select>
+                <select name="status" id="status">
+                    <option value="all">all</option>
+                    <option value="alive">Alive</option>
+                    <option value="dead">Dead</option>
+                    <option value="unknown">Unknown</option>
+                </select>
+            </section>
+
+
+            <section class="cards__container"></section>
+
+            <button>Load more</button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
