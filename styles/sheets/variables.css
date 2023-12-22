@@ -17,4 +17,22 @@
     --blue: #42B4CA;
     --blue-dark: #2193aa;
 
+
+    --alive: green;
+    --dead: red;
+    --unknown: orange;
+
+}
+
+
+.alive {
+    background-color: var(--alive);
+}
+
+.dead {
+    background-color: var(--dead);
+}
+
+.unknown {
+    background-color: var(--unknown);
 }

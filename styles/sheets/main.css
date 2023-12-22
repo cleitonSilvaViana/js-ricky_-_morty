@@ -1,5 +1,4 @@
 main {
-    height: calc(100dvh - 48px);
     padding: 40px 0;
 
     img.logo {
@@ -101,3 +100,16 @@ button {
         color: var(--white);
     }
 }
+
+
+.display-none {
+    display: none;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width:8px;
+    height:8px;
+}
+
